@@ -1,0 +1,16 @@
+<ActionBar title="Photos"> </ActionBar>
+
+<FlexboxLayout flexDirection="column" backgroundColor="black">
+  <Label text="Searching.........." height="50"></Label>
+  <Label text="File Name :" height="50"></Label>
+  <Image #photo src="" height="500"></Image>
+  <Label text="Direction:" height="50"></Label
+  ><Label text="{{ direction }}" height="50"></Label>
+  <Button
+    textWrap="true"
+    height="50"
+    backgroundColor="green"
+    text="Get Direction"
+    (tap)="takePicture()"
+  ></Button>
+</FlexboxLayout>
